@@ -5,6 +5,7 @@ const nextConfig = {
 	// 	loader: "custom",
 	// 	path: "https://localhost:3000/",
 	// },
+	// optimizeFonts: false,
 };
 
 module.exports = nextConfig;

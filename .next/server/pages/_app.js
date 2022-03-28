@@ -1,310 +1,79 @@
-"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
 (() => {
 var exports = {};
-exports.id = 888;
-exports.ids = [888];
+exports.id = "pages/_app";
+exports.ids = ["pages/_app"];
 exports.modules = {
 
-/***/ 732:
+/***/ "./components/head-component.jsx":
+/*!***************************************!*\
+  !*** ./components/head-component.jsx ***!
+  \***************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ \"next/head\");\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);\n\n/* eslint-disable @next/next/no-page-custom-font */ \nconst HeadComponent = ()=>{\n    return(/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_head__WEBPACK_IMPORTED_MODULE_1___default()), {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"title\", {\n                children: \"Arsya | Harmony Dalam Keselarasan\"\n            }, void 0, false, {\n                fileName: \"/Users/ahmadrifqib/Developer/arsya-next/components/head-component.jsx\",\n                lineNumber: 7,\n                columnNumber: 4\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                name: \"description\",\n                content: \"Arsya | Harmony Dalam Keselarasan\"\n            }, void 0, false, {\n                fileName: \"/Users/ahmadrifqib/Developer/arsya-next/components/head-component.jsx\",\n                lineNumber: 8,\n                columnNumber: 4\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                name: \"viewport\",\n                content: \"width=device-width, initial-scale=1\"\n            }, void 0, false, {\n                fileName: \"/Users/ahmadrifqib/Developer/arsya-next/components/head-component.jsx\",\n                lineNumber: 9,\n                columnNumber: 4\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                name: \"author\",\n                content: \"Arsya\"\n            }, void 0, false, {\n                fileName: \"/Users/ahmadrifqib/Developer/arsya-next/components/head-component.jsx\",\n                lineNumber: 10,\n                columnNumber: 4\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                name: \"keywords\",\n                content: \"Arysa, Arsya, Arysa Buah, Arsya Catering, Arsya Cafe, Arsya Wisata\"\n            }, void 0, false, {\n                fileName: \"/Users/ahmadrifqib/Developer/arsya-next/components/head-component.jsx\",\n                lineNumber: 11,\n                columnNumber: 4\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                property: \"og:title\",\n                content: \"Arsya\"\n            }, void 0, false, {\n                fileName: \"/Users/ahmadrifqib/Developer/arsya-next/components/head-component.jsx\",\n                lineNumber: 13,\n                columnNumber: 4\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                property: \"og:site_name\",\n                content: \"Arsya\"\n            }, void 0, false, {\n                fileName: \"/Users/ahmadrifqib/Developer/arsya-next/components/head-component.jsx\",\n                lineNumber: 14,\n                columnNumber: 4\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                property: \"og:description\",\n                content: \"Arsya | Harmony Dalam Keselarasan\"\n            }, void 0, false, {\n                fileName: \"/Users/ahmadrifqib/Developer/arsya-next/components/head-component.jsx\",\n                lineNumber: 15,\n                columnNumber: 4\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                property: \"og:type\",\n                content: \"website\"\n            }, void 0, false, {\n                fileName: \"/Users/ahmadrifqib/Developer/arsya-next/components/head-component.jsx\",\n                lineNumber: 16,\n                columnNumber: 4\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                property: \"og:url\",\n                content: \"https://arsya.co.id/\"\n            }, void 0, false, {\n                fileName: \"/Users/ahmadrifqib/Developer/arsya-next/components/head-component.jsx\",\n                lineNumber: 17,\n                columnNumber: 4\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                property: \"twitter:card\",\n                content: \"summary\"\n            }, void 0, false, {\n                fileName: \"/Users/ahmadrifqib/Developer/arsya-next/components/head-component.jsx\",\n                lineNumber: 19,\n                columnNumber: 4\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                property: \"twitter:title\",\n                content: \"Arsya\"\n            }, void 0, false, {\n                fileName: \"/Users/ahmadrifqib/Developer/arsya-next/components/head-component.jsx\",\n                lineNumber: 20,\n                columnNumber: 4\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                property: \"twitter:description\",\n                content: \"Arsya | Harmony Dalam Keselarasan\"\n            }, void 0, false, {\n                fileName: \"/Users/ahmadrifqib/Developer/arsya-next/components/head-component.jsx\",\n                lineNumber: 21,\n                columnNumber: 4\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"shortcut icon\",\n                href: \"/favicon.ico\",\n                type: \"image/x-icon\"\n            }, void 0, false, {\n                fileName: \"/Users/ahmadrifqib/Developer/arsya-next/components/head-component.jsx\",\n                lineNumber: 23,\n                columnNumber: 4\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                href: \"https://fonts.googleapis.com/css2?family=Rochester&display=swap\",\n                rel: \"stylesheet\"\n            }, void 0, false, {\n                fileName: \"/Users/ahmadrifqib/Developer/arsya-next/components/head-component.jsx\",\n                lineNumber: 24,\n                columnNumber: 4\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/ahmadrifqib/Developer/arsya-next/components/head-component.jsx\",\n        lineNumber: 6,\n        columnNumber: 3\n    }, undefined));\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (HeadComponent);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL2hlYWQtY29tcG9uZW50LmpzeC5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7QUFBQSxFQUFtRCxrREFDdkI7QUFFNUIsS0FBSyxDQUFDQyxhQUFhLE9BQVMsQ0FBQztJQUM1QixNQUFNLDZFQUNKRCxrREFBSTs7d0ZBQ0hFLENBQUs7MEJBQUMsQ0FBaUM7Ozs7Ozt3RkFDdkNDLENBQUk7Z0JBQUNDLElBQUksRUFBQyxDQUFhO2dCQUFDQyxPQUFPLEVBQUMsQ0FBbUM7Ozs7Ozt3RkFDbkVGLENBQUk7Z0JBQUNDLElBQUksRUFBQyxDQUFVO2dCQUFDQyxPQUFPLEVBQUMsQ0FBcUM7Ozs7Ozt3RkFDbEVGLENBQUk7Z0JBQUNDLElBQUksRUFBQyxDQUFRO2dCQUFDQyxPQUFPLEVBQUMsQ0FBTzs7Ozs7O3dGQUNsQ0YsQ0FBSTtnQkFBQ0MsSUFBSSxFQUFDLENBQVU7Z0JBQUNDLE9BQU8sRUFBQyxDQUFvRTs7Ozs7O3dGQUVqR0YsQ0FBSTtnQkFBQ0csUUFBUSxFQUFDLENBQVU7Z0JBQUNELE9BQU8sRUFBQyxDQUFPOzs7Ozs7d0ZBQ3hDRixDQUFJO2dCQUFDRyxRQUFRLEVBQUMsQ0FBYztnQkFBQ0QsT0FBTyxFQUFDLENBQU87Ozs7Ozt3RkFDNUNGLENBQUk7Z0JBQUNHLFFBQVEsRUFBQyxDQUFnQjtnQkFBQ0QsT0FBTyxFQUFDLENBQW1DOzs7Ozs7d0ZBQzFFRixDQUFJO2dCQUFDRyxRQUFRLEVBQUMsQ0FBUztnQkFBQ0QsT0FBTyxFQUFDLENBQVM7Ozs7Ozt3RkFDekNGLENBQUk7Z0JBQUNHLFFBQVEsRUFBQyxDQUFRO2dCQUFDRCxPQUFPLEVBQUMsQ0FBc0I7Ozs7Ozt3RkFFckRGLENBQUk7Z0JBQUNHLFFBQVEsRUFBQyxDQUFjO2dCQUFDRCxPQUFPLEVBQUMsQ0FBUzs7Ozs7O3dGQUM5Q0YsQ0FBSTtnQkFBQ0csUUFBUSxFQUFDLENBQWU7Z0JBQUNELE9BQU8sRUFBQyxDQUFPOzs7Ozs7d0ZBQzdDRixDQUFJO2dCQUFDRyxRQUFRLEVBQUMsQ0FBcUI7Z0JBQUNELE9BQU8sRUFBQyxDQUFtQzs7Ozs7O3dGQUUvRUUsQ0FBSTtnQkFBQ0MsR0FBRyxFQUFDLENBQWU7Z0JBQUNDLElBQUksRUFBQyxDQUFjO2dCQUFDQyxJQUFJLEVBQUMsQ0FBYzs7Ozs7O3dGQUNoRUgsQ0FBSTtnQkFBQ0UsSUFBSSxFQUFDLENBQWlFO2dCQUFDRCxHQUFHLEVBQUMsQ0FBWTs7Ozs7Ozs7Ozs7O0FBR2hHLENBQUM7QUFFRCxpRUFBZVAsYUFBYSxFQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vYXJzeWEtbmV4dC8uL2NvbXBvbmVudHMvaGVhZC1jb21wb25lbnQuanN4Pzg2YzYiXSwic291cmNlc0NvbnRlbnQiOlsiLyogZXNsaW50LWRpc2FibGUgQG5leHQvbmV4dC9uby1wYWdlLWN1c3RvbS1mb250ICovXG5pbXBvcnQgSGVhZCBmcm9tIFwibmV4dC9oZWFkXCI7XG5cbmNvbnN0IEhlYWRDb21wb25lbnQgPSAoKSA9PiB7XG5cdHJldHVybiAoXG5cdFx0PEhlYWQ+XG5cdFx0XHQ8dGl0bGU+QXJzeWEgfCBIYXJtb255IERhbGFtIEtlc2VsYXJhc2FuPC90aXRsZT5cblx0XHRcdDxtZXRhIG5hbWU9XCJkZXNjcmlwdGlvblwiIGNvbnRlbnQ9XCJBcnN5YSB8IEhhcm1vbnkgRGFsYW0gS2VzZWxhcmFzYW5cIiAvPlxuXHRcdFx0PG1ldGEgbmFtZT1cInZpZXdwb3J0XCIgY29udGVudD1cIndpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xXCIgLz5cblx0XHRcdDxtZXRhIG5hbWU9XCJhdXRob3JcIiBjb250ZW50PVwiQXJzeWFcIiAvPlxuXHRcdFx0PG1ldGEgbmFtZT1cImtleXdvcmRzXCIgY29udGVudD1cIkFyeXNhLCBBcnN5YSwgQXJ5c2EgQnVhaCwgQXJzeWEgQ2F0ZXJpbmcsIEFyc3lhIENhZmUsIEFyc3lhIFdpc2F0YVwiIC8+XG5cblx0XHRcdDxtZXRhIHByb3BlcnR5PVwib2c6dGl0bGVcIiBjb250ZW50PVwiQXJzeWFcIiAvPlxuXHRcdFx0PG1ldGEgcHJvcGVydHk9XCJvZzpzaXRlX25hbWVcIiBjb250ZW50PVwiQXJzeWFcIiAvPlxuXHRcdFx0PG1ldGEgcHJvcGVydHk9XCJvZzpkZXNjcmlwdGlvblwiIGNvbnRlbnQ9XCJBcnN5YSB8IEhhcm1vbnkgRGFsYW0gS2VzZWxhcmFzYW5cIiAvPlxuXHRcdFx0PG1ldGEgcHJvcGVydHk9XCJvZzp0eXBlXCIgY29udGVudD1cIndlYnNpdGVcIiAvPlxuXHRcdFx0PG1ldGEgcHJvcGVydHk9XCJvZzp1cmxcIiBjb250ZW50PVwiaHR0cHM6Ly9hcnN5YS5jby5pZC9cIiAvPlxuXG5cdFx0XHQ8bWV0YSBwcm9wZXJ0eT1cInR3aXR0ZXI6Y2FyZFwiIGNvbnRlbnQ9XCJzdW1tYXJ5XCIgLz5cblx0XHRcdDxtZXRhIHByb3BlcnR5PVwidHdpdHRlcjp0aXRsZVwiIGNvbnRlbnQ9XCJBcnN5YVwiIC8+XG5cdFx0XHQ8bWV0YSBwcm9wZXJ0eT1cInR3aXR0ZXI6ZGVzY3JpcHRpb25cIiBjb250ZW50PVwiQXJzeWEgfCBIYXJtb255IERhbGFtIEtlc2VsYXJhc2FuXCIgLz5cblxuXHRcdFx0PGxpbmsgcmVsPVwic2hvcnRjdXQgaWNvblwiIGhyZWY9XCIvZmF2aWNvbi5pY29cIiB0eXBlPVwiaW1hZ2UveC1pY29uXCIgLz5cblx0XHRcdDxsaW5rIGhyZWY9XCJodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2NzczI/ZmFtaWx5PVJvY2hlc3RlciZkaXNwbGF5PXN3YXBcIiByZWw9XCJzdHlsZXNoZWV0XCIgLz5cblx0XHQ8L0hlYWQ+XG5cdCk7XG59O1xuXG5leHBvcnQgZGVmYXVsdCBIZWFkQ29tcG9uZW50O1xuIl0sIm5hbWVzIjpbIkhlYWQiLCJIZWFkQ29tcG9uZW50IiwidGl0bGUiLCJtZXRhIiwibmFtZSIsImNvbnRlbnQiLCJwcm9wZXJ0eSIsImxpbmsiLCJyZWwiLCJocmVmIiwidHlwZSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./components/head-component.jsx\n");
 
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ _app)
-});
+/***/ }),
 
-// EXTERNAL MODULE: external "react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(997);
-;// CONCATENATED MODULE: external "next/head"
-const head_namespaceObject = require("next/head");
-var head_default = /*#__PURE__*/__webpack_require__.n(head_namespaceObject);
-;// CONCATENATED MODULE: ./components/head-component.jsx
+/***/ "./components/layout.jsx":
+/*!*******************************!*\
+  !*** ./components/layout.jsx ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _head_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./head-component */ \"./components/head-component.jsx\");\n\n// import Footer from \"./footer\";\n\n// import NavigationBar from \"./navigation-bar\";\nconst Layout = ({ children  })=>{\n    return(/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_head_component__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {}, void 0, false, {\n                fileName: \"/Users/ahmadrifqib/Developer/arsya-next/components/layout.jsx\",\n                lineNumber: 8,\n                columnNumber: 4\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"h-screen antialiased bg-gray-400\",\n                children: children\n            }, void 0, false, {\n                fileName: \"/Users/ahmadrifqib/Developer/arsya-next/components/layout.jsx\",\n                lineNumber: 13,\n                columnNumber: 4\n            }, undefined)\n        ]\n    }, void 0, true));\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Layout);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL2xheW91dC5qc3guanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7QUFBQSxFQUFpQztBQUNXO0FBQzVDLEVBQWdEO0FBRWhELEtBQUssQ0FBQ0MsTUFBTSxJQUFJLENBQUMsQ0FBQ0MsUUFBUSxFQUFDLENBQUMsR0FBSyxDQUFDO0lBQ2pDLE1BQU07O3dGQUVIRix1REFBYTs7Ozs7d0ZBS2JHLENBQUc7Z0JBQUNDLFNBQVMsRUFBQyxDQUFrQzswQkFBRUYsUUFBUTs7Ozs7Ozs7QUFJOUQsQ0FBQztBQUVELGlFQUFlRCxNQUFNLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9hcnN5YS1uZXh0Ly4vY29tcG9uZW50cy9sYXlvdXQuanN4P2MwM2YiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gaW1wb3J0IEZvb3RlciBmcm9tIFwiLi9mb290ZXJcIjtcbmltcG9ydCBIZWFkQ29tcG9uZW50IGZyb20gXCIuL2hlYWQtY29tcG9uZW50XCI7XG4vLyBpbXBvcnQgTmF2aWdhdGlvbkJhciBmcm9tIFwiLi9uYXZpZ2F0aW9uLWJhclwiO1xuXG5jb25zdCBMYXlvdXQgPSAoeyBjaGlsZHJlbiB9KSA9PiB7XG5cdHJldHVybiAoXG5cdFx0PD5cblx0XHRcdDxIZWFkQ29tcG9uZW50IC8+XG5cdFx0XHR7LyogPGRpdiBjbGFzc05hbWU9XCJhYnNvbHV0ZSB6LTEwIHctZnVsbCBiZy13aGl0ZVwiPlxuXHRcdFx0XHRcdDxOYXZpZ2F0aW9uQmFyIC8+XG5cdFx0XHRcdDwvZGl2PiAqL31cblxuXHRcdFx0PGRpdiBjbGFzc05hbWU9XCJoLXNjcmVlbiBhbnRpYWxpYXNlZCBiZy1ncmF5LTQwMFwiPntjaGlsZHJlbn08L2Rpdj5cblx0XHRcdHsvKiA8Rm9vdGVyIC8+ICovfVxuXHRcdDwvPlxuXHQpO1xufTtcblxuZXhwb3J0IGRlZmF1bHQgTGF5b3V0O1xuIl0sIm5hbWVzIjpbIkhlYWRDb21wb25lbnQiLCJMYXlvdXQiLCJjaGlsZHJlbiIsImRpdiIsImNsYXNzTmFtZSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./components/layout.jsx\n");
 
-const HeadComponent = ()=>{
-    return(/*#__PURE__*/ (0,jsx_runtime_.jsxs)((head_default()), {
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("title", {
-                children: "Arsya | Harmony Dalam Keselarasan"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                name: "description",
-                content: "Arsya Group | Harmony Dalam Keselarasan"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                name: "viewport",
-                content: "width=device-width, initial-scale=1"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                name: "author",
-                content: "Arsya Group"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                name: "keywords",
-                content: "Arysa, Arsya Group, Arysa Buah, Arsya Catering, Arsya Cafe, Arsya Wisata"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                property: "og:title",
-                content: "Arsya Group"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                property: "og:site_name",
-                content: "Arsya Group"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                property: "og:description",
-                content: "Arsya Group | Harmony Dalam Keselarasan"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                property: "og:type",
-                content: "website"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                property: "og:url",
-                content: "https://arsya.co.id/"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                property: "twitter:card",
-                content: "summary"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                property: "twitter:title",
-                content: "Arsya Group"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                property: "twitter:description",
-                content: "Arsya Group | Harmony Dalam Keselarasan"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                rel: "icon",
-                href: "/favicon.ico"
-            })
-        ]
-    }));
-};
-/* harmony default export */ const head_component = (HeadComponent);
+/***/ }),
 
-// EXTERNAL MODULE: ./node_modules/next/image.js
-var next_image = __webpack_require__(675);
-// EXTERNAL MODULE: ./node_modules/next/link.js
-var next_link = __webpack_require__(664);
-;// CONCATENATED MODULE: ./components/navigation-bar.jsx
+/***/ "./pages/_app.jsx":
+/*!************************!*\
+  !*** ./pages/_app.jsx ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/globals.css */ \"./styles/globals.css\");\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_globals_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/layout */ \"./components/layout.jsx\");\n\n\n\nconst MyApp = ({ Component , pageProps  })=>{\n    return(/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_layout__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Component, {\n            ...pageProps\n        }, void 0, false, {\n            fileName: \"/Users/ahmadrifqib/Developer/arsya-next/pages/_app.jsx\",\n            lineNumber: 7,\n            columnNumber: 4\n        }, undefined)\n    }, void 0, false, {\n        fileName: \"/Users/ahmadrifqib/Developer/arsya-next/pages/_app.jsx\",\n        lineNumber: 6,\n        columnNumber: 3\n    }, undefined));\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MyApp);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9fYXBwLmpzeC5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7O0FBQThCO0FBQ1c7QUFFekMsS0FBSyxDQUFDQyxLQUFLLElBQUksQ0FBQyxDQUFDQyxTQUFTLEdBQUVDLFNBQVMsRUFBQyxDQUFDLEdBQUssQ0FBQztJQUM1QyxNQUFNLDZFQUNKSCwwREFBTTs4RkFDTEUsU0FBUztlQUFLQyxTQUFTOzs7Ozs7Ozs7OztBQUczQixDQUFDO0FBRUQsaUVBQWVGLEtBQUssRUFBQyIsInNvdXJjZXMiOlsid2VicGFjazovL2Fyc3lhLW5leHQvLi9wYWdlcy9fYXBwLmpzeD80Y2IzIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBcIi4uL3N0eWxlcy9nbG9iYWxzLmNzc1wiO1xuaW1wb3J0IExheW91dCBmcm9tIFwiLi4vY29tcG9uZW50cy9sYXlvdXRcIjtcblxuY29uc3QgTXlBcHAgPSAoeyBDb21wb25lbnQsIHBhZ2VQcm9wcyB9KSA9PiB7XG5cdHJldHVybiAoXG5cdFx0PExheW91dD5cblx0XHRcdDxDb21wb25lbnQgey4uLnBhZ2VQcm9wc30gLz5cblx0XHQ8L0xheW91dD5cblx0KTtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IE15QXBwO1xuIl0sIm5hbWVzIjpbIkxheW91dCIsIk15QXBwIiwiQ29tcG9uZW50IiwicGFnZVByb3BzIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./pages/_app.jsx\n");
 
+/***/ }),
 
-// const myLoader = ({ src, width, quality }) => {
-// 	return `https://arsya.co.id/${src}?w=${width}&q=${quality || 75}`;
-// };
-const NavigationBar = ()=>{
-    return(/*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-        className: "flex items-center justify-between w-full h-20 text-black bg-white ",
-        children: [
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "flex items-center justify-between h-full ",
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: "pl-4 pr-2 md:pl-10",
-                        children: /*#__PURE__*/ jsx_runtime_.jsx(next_image["default"], {
-                            src: "/images/logo.png",
-                            alt: "Logo Arsya",
-                            width: 72,
-                            height: 72
-                        })
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: "p-5 ml-2 text-3xl font-medium md:mr-10",
-                        children: "Arsya"
-                    })
-                ]
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                href: "/",
-                children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                    className: "hidden px-3 py-1 mx-20 text-2xl font-medium border-red-500 md:block hover:border-b-4 hover:text-green-600",
-                    children: "Home"
-                })
-            })
-        ]
-    }));
-};
-/* harmony default export */ const navigation_bar = (NavigationBar);
+/***/ "./styles/globals.css":
+/*!****************************!*\
+  !*** ./styles/globals.css ***!
+  \****************************/
+/***/ (() => {
 
-;// CONCATENATED MODULE: ./components/layout.jsx
-
-// import Footer from "./footer";
-
-
-const Layout = ({ children  })=>{
-    return(/*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx(head_component, {}),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "h-screen m-auto font-sans antialiased bg-center bg-no-repeat bg-cover bg-food ",
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: "absolute z-10 w-full bg-white",
-                        children: /*#__PURE__*/ jsx_runtime_.jsx(navigation_bar, {})
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: "absolute z-0 w-full h-screen text-center py-72 bg-gray-500/60",
-                        children: children
-                    })
-                ]
-            })
-        ]
-    }));
-};
-/* harmony default export */ const layout = (Layout);
-
-;// CONCATENATED MODULE: ./pages/_app.jsx
-
-
-
-const MyApp = ({ Component , pageProps  })=>{
-    return(/*#__PURE__*/ jsx_runtime_.jsx(layout, {
-        children: /*#__PURE__*/ jsx_runtime_.jsx(Component, {
-            ...pageProps
-        })
-    }));
-};
-/* harmony default export */ const _app = (MyApp);
 
 
 /***/ }),
 
-/***/ 562:
+/***/ "next/head":
+/*!****************************!*\
+  !*** external "next/head" ***!
+  \****************************/
 /***/ ((module) => {
 
-module.exports = require("next/dist/server/denormalize-page-path.js");
+"use strict";
+module.exports = require("next/head");
 
 /***/ }),
 
-/***/ 28:
+/***/ "react/jsx-dev-runtime":
+/*!****************************************!*\
+  !*** external "react/jsx-dev-runtime" ***!
+  \****************************************/
 /***/ ((module) => {
 
-module.exports = require("next/dist/server/image-config.js");
-
-/***/ }),
-
-/***/ 957:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/head.js");
-
-/***/ }),
-
-/***/ 14:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/i18n/normalize-locale-path.js");
-
-/***/ }),
-
-/***/ 744:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/image-config-context.js");
-
-/***/ }),
-
-/***/ 524:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/is-plain-object.js");
-
-/***/ }),
-
-/***/ 20:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/mitt.js");
-
-/***/ }),
-
-/***/ 964:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router-context.js");
-
-/***/ }),
-
-/***/ 565:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/get-asset-path-from-route.js");
-
-/***/ }),
-
-/***/ 365:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/get-middleware-regex.js");
-
-/***/ }),
-
-/***/ 428:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/is-dynamic.js");
-
-/***/ }),
-
-/***/ 292:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/parse-relative-url.js");
-
-/***/ }),
-
-/***/ 979:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/querystring.js");
-
-/***/ }),
-
-/***/ 52:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/resolve-rewrites.js");
-
-/***/ }),
-
-/***/ 226:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/route-matcher.js");
-
-/***/ }),
-
-/***/ 422:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/route-regex.js");
-
-/***/ }),
-
-/***/ 232:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/utils.js");
-
-/***/ }),
-
-/***/ 689:
-/***/ ((module) => {
-
-module.exports = require("react");
-
-/***/ }),
-
-/***/ 997:
-/***/ ((module) => {
-
-module.exports = require("react/jsx-runtime");
+"use strict";
+module.exports = require("react/jsx-dev-runtime");
 
 /***/ })
 
@@ -315,7 +84,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [730,61], () => (__webpack_exec__(732)));
+var __webpack_exports__ = (__webpack_exec__("./pages/_app.jsx"));
 module.exports = __webpack_exports__;
 
 })();
