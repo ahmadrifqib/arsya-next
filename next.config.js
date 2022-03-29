@@ -1,11 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-	reactStrictMode: true,
-	// images: {
-	// 	loader: "custom",
-	// 	path: "https://localhost:3000/",
-	// },
-	// optimizeFonts: false,
+	//development mode = true
+	reactStrictMode: false,
 };
 
 module.exports = nextConfig;

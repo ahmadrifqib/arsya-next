@@ -6,8 +6,7 @@
 		"dev": "node server.js",
 		"build": "next build",
 		"start": "NODE_ENV=production node server.js",
-		"lint": "next lint",
-		"prod": "next build && next export"
+		"lint": "next lint"
 	},
 	"dependencies": {
 		"@fullpage/react-fullpage": "^0.1.22",

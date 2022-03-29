@@ -7,3 +7,8 @@
 		font-family: "Rochester", cursive;
 	}
 }
+
+@font-face {
+	src: url("../public/fonts/rochester.ttf");
+	font-family: "Rochester", cursive;
+}
